@@ -123,7 +123,7 @@ to {
   min-height: 70vh;
   /* background: linear-gradient(0deg,   rgba(88, 153, 232, 0.05)0%,   rgba(88, 153, 232, 0.4)55%,   rgba(88, 153, 232, 0.5)100%),url(./assets/cover.png) top center; */
 
-  background: linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(./assets/cover.png) top center;
+  background: linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(../assets/cover.png) top center;
   background-size: cover;
   padding: 120px;
   
@@ -256,7 +256,7 @@ to {
 
 
 .Ruban{
-  background-image: url(./assets/Rubanbleu.png) ;
+  background-image: url(../assets/Rubanbleu.png) ;
   position:absolute;
   opacity: 0.9;
   top:-10px;
@@ -608,7 +608,7 @@ letter-spacing: 3px;
 }
 
 .Hup1 {
-  background-image: url(/assets/attijari.png);
+  background-image: url(../assets/attijari.png);
   
  
 
@@ -616,14 +616,14 @@ letter-spacing: 3px;
 
 .Hup2 {
 
-  background-image: url(/assets/labelvie.png);
+  background-image: url(../assets/labelvie.png);
 
 
 }
 
 .Hup3 {
 
-   background-image: url(/assets/coca.png);
+   background-image: url(../assets/coca.png);
    background-size: contain;
    background-position: none;
 
@@ -633,28 +633,28 @@ letter-spacing: 3px;
 
 .Hup4 {
 
-  background-image: url(/assets/grprenault.png);
+  background-image: url(../assets/grprenault.png);
 
 }
 .Hup5 {
 
-  background-image: url(/assets/loreal.png);
+  background-image: url(../assets/loreal.png);
 
 }
 .Hup6 {
-  background-image: url(/assets/hps.png);
+  background-image: url(../assets/hps.png);
 
 
 }
 
 .Hup8 {
 
-  background-image: url(/assets/harisf.jpg);
+  background-image: url(../assets/harisf.jpg);
 
 }
 .Hup7 {
 
-  background-image: url(/assets/siana.png);
+  background-image: url(../assets/siana.png);
   
 
 }
