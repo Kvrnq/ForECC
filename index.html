@@ -164,7 +164,7 @@
 
       </div>
     </section>
-     <script>
+      <script>
       function Develop_Menu(num) {
 
         if (document.getElementById("OnlyDiv")==undefined){
@@ -176,26 +176,35 @@
     Div.id="OnlyDiv"
     Fontwrite.id="Frontwrite"
     Inside.id='Inside'
-    Inside.style.cssText="color: white;font-family: Roboto, sans-serif;font-weight: 400;position: relative;display: flex;justify-content: center;flex-direction: row;flex-wrap: nowrap;align-content: stretch;padding-left:6%"
+    Inside.style.cssText="color: white;font-family: Roboto, sans-serif;font-weight: 400;position: relative;display: flex;justify-content: center;flex-direction: row;flex-wrap: nowrap;align-content: stretch;padding-left:3%;top:-5%"
     Fontwrite.style.cssText="position: absolute;left: 320%;top: 55%;width: 570px;height: 140px;border: 3px solid white;z-index: 90;opacity: 0;border-radius: 6%;transition:opacity 1s ease-in-out";
     Div.style.cssText = "position: absolute;left: 102%;top: -1%;z-index: 20;width: 0px;height: 404px;border-top: 3px solid rgb(213, 220, 226);border-right: 3px solid rgb(213, 220, 226);border-bottom: 3px solid rgb(213, 220, 226);border-image: initial;background-color: rgba(18, 26, 32, 0.7);padding-left: 10px;padding-top: 10px;border-radius: 0px;border-left: none;transition: width 2s ease-in-out 0s,position 2s ease-in-out 0s,left 2s ease-in-out 0s,top 2s ease-in-out 0s,opacity 2s ease-in-out 0s,border-radius 2s ease-in-out 0s;";
     Hup.style.cssText="opacity:0;transition: width 2s ease-in-out 0s,position 2s ease-in-out 0s,transform 2s ease-in-out 0s,opacity 2s ease-in-out 2s,border-radius 2s ease-in-out 0s,height 2s ease-in-out 0s;"
             if (num==1){
-            Inside.innerText="Nous remercions l'école Centrale Casablanca pour la qualité de cet événement"}
+            Inside.innerText="«Nous remercions l'école Centrale Casablanca pour la qualité de cet événement»"
+            Fontwrite.style.height="90px";}
             if (num==2){
-              Inside.innerText="Un grand merci au comité organisationnel qui a veillé à la réussite de cet événement"}
+              Inside.innerText="«Un grand merci au comité organisationnel qui a veillé à la réussite de cet événement»"
+              Fontwrite.style.height="90px";}
             if (num==3){
-              Inside.innerText="Nous avons été très contents de participer à l'édition du forum Ecc-Entreprises, nous étions extrêmement enchantés de rencontrer de jeunes talents très motivées et dynamiques"}
+              Inside.innerText="«Nous avons été très contents de participer à l'édition du forum Ecc-Entreprises, nous étions extrêmement enchantés de rencontrer de jeunes talents très motivées et dynamiques»"
+            }
             if (num==4){
-              Inside.innerText="Je pense que je reviendrai, j'ai trouvé des étudiants à la fois motivés et très divers"}
+              Inside.innerText="«Je pense que je reviendrai, j'ai trouvé des étudiants à la fois motivés et très divers»"
+              Fontwrite.style.height="90px";}
             if (num==5){
-              Inside.innerText="Nous sommes honorés de participer à cette édition du forum ... On a pu sentir la motivation et l'engouement des étudiants. Je vous félicite pour ceci"}
+              Inside.innerText="«Nous sommes honorés de participer à cette édition du forum ... On a pu sentir la motivation et l'engouement des étudiants. Je vous félicite pour ceci»"
+            }
             if (num==6){
-              Inside.innerText="On était vraiment très surpris par la dynamique des étudiants. On tient à remercier l'école Centrale Casablanca pour la qualité de l'organisation"}
+              Inside.innerText="«On était vraiment très surpris par la dynamique des étudiants. On tient à remercier l'école Centrale Casablanca pour la qualité de l'organisation»"
+              Fontwrite.style.height="120px";}
             if (num==7){
-              Inside.innerText="On est très ravi de retrouver ce forum"}
+              Inside.innerText="«On est très ravi de retrouver ce forum»"
+              Fontwrite.style.height="70px";}
             if (num==8){
-              Inside.innerText="Ce forum est une très belle expérience"}
+              Inside.innerText="«Ce forum est une très belle expérience»"
+              Fontwrite.style.height="70px";}
+
     placement_Hup.appendChild(Div);
     placement_Hup.appendChild(Fontwrite);
     Fontwrite.appendChild(Inside);
