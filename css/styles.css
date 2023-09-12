@@ -3,6 +3,38 @@
     scroll-behavior:smooth;
   }
 }
+.frame{
+  margin-right: 100px;
+scale: 0.7;}
+.Temoi{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-right: 60px;
+  padding-top: 100px;
+  position: relative;
+  padding-left:3% ;
+  background-color: rgb(242, 239, 235);
+  background-position: -500px 20px;
+
+  height: 280px;
+  width: 100%;
+  color:black;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr ; 
+  grid-template-rows: 0.2fr 1fr; 
+  gap: 10px; 
+  grid-template-areas: 
+  ". . ."
+  ". . ."
+    ". . ."; 
+  justify-content: stretch; 
+  font-size: 20px;
+  border-bottom: 5px solid rgb(194, 186, 186);
+  border-top: 5px solid rgb(194, 186, 186);
+  z-index: 1;
+
+
+}
 
   
 @keyframes wiggle {
