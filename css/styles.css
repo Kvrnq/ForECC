@@ -5,7 +5,26 @@
 }
 
   
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(10deg); }
+ 95% { transform: rotate(-10deg); }
+100% { transform: rotate(0deg); }
+}
+.Arrow {
+  background-image: url("/assets/right-arrow.png");
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 10%;
+  z-index: 120;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  top: 30%;
+  animation: wiggle 2.5s infinite;
 
+}
 #mainNav {
   position: fixed;
   top: 0;
