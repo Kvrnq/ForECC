@@ -14,7 +14,6 @@
 }
 .Arrow {
   background: url("../assets/right-arrow.png");
-  z-index:10;
   width: 10%;
   height: 10%;
   position: absolute;
@@ -24,6 +23,8 @@
   background-size: 30%;
   top: 30%;
   animation: wiggle 2.5s infinite;
+  z-index:10;
+
 
 }
 #mainNav {
