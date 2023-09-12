@@ -13,7 +13,7 @@
 100% { transform: rotate(0deg); }
 }
 .Arrow {
-  background-image: url("/assets/right-arrow.png");
+  background: url("../assets/right-arrow.png");
   width: 10%;
   height: 10%;
   position: absolute;
