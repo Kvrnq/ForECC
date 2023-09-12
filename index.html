@@ -143,27 +143,71 @@
 
       </div>
     </section>
-    <script>
+     <script>
       function Develop_Menu(num) {
 
         if (document.getElementById("OnlyDiv")==undefined){
     var Hup = document.getElementById("Hup" + num);
     var placement_Hup=document.getElementById("placement_Hup")
     var Div = document.createElement("div");
+    var Fontwrite=document.createElement("div")
+    var Inside=document.createElement("h1")
     Div.id="OnlyDiv"
+    Fontwrite.id="Frontwrite"
+    Inside.id='Inside'
+    Inside.style.cssText="color: white;font-family: Roboto, sans-serif;font-weight: 400;position: relative;padding-top: 2%;display: flex;justify-content: center;flex-direction: row;flex-wrap: nowrap;align-content: stretch;padding-left:6%"
+    Fontwrite.style.cssText="position: absolute;left: 320%;top: 55%;width: 550px;height: 140px;border: 3px solid white;z-index: 90;opacity: 0;border-radius: 6%;transition:opacity 1s ease-in-out";
     Div.style.cssText = "position: absolute;left: 102%;top: -1%;z-index: 20;width: 0px;height: 404px;border-top: 3px solid rgb(213, 220, 226);border-right: 3px solid rgb(213, 220, 226);border-bottom: 3px solid rgb(213, 220, 226);border-image: initial;background-color: rgba(18, 26, 32, 0.7);padding-left: 10px;padding-top: 10px;border-radius: 0px;border-left: none;transition: width 2s ease-in-out 0s,position 2s ease-in-out 0s,left 2s ease-in-out 0s,top 2s ease-in-out 0s,opacity 2s ease-in-out 0s,border-radius 2s ease-in-out 0s;";
     Hup.style.cssText="opacity:0;transition: width 2s ease-in-out 0s,position 2s ease-in-out 0s,transform 2s ease-in-out 0s,opacity 2s ease-in-out 2s,border-radius 2s ease-in-out 0s,height 2s ease-in-out 0s;"
+            if (num==1){
+            Inside.innerText="Nous remercions l'école Centrale Casablanca pour la qualité de cet événement"}
+            if (num==2){
+              Inside.innerText="Un grand merci au comité organisationnel qui a veillé à la réussite de cet événement"}
+            if (num==3){
+              Inside.innerText="Nous avons été très contents de participer à l'édition du forum Ecc-Entreprises, nous étions extrêmement enchantés de rencontrer de jeunes talents très motivées et dynamiques"}
+            if (num==4){
+              Inside.innerText="Je pense que je reviendrai, j'ai trouvé des étudiants à la fois motivés et très divers"}
+            if (num==5){
+              Inside.innerText="Nous sommes honorés de participer à cette édition du forum ... On a pu sentir la motivation et l'engouement des étudiants. Je vous félicite pour ceci"}
+            if (num==6){
+              Inside.innerText="On était vraiment très surpris par la dynamique des étudiants. On tient à remercie l'école Centrale Casablanca pour la qualité de l'organisation"}
+            if (num==7){
+              Inside.innerText="On est très ravi de retrouver ce forum"}
+            if (num==8){
+              Inside.innerText="Ce forum est une très belle expérience"}
     placement_Hup.appendChild(Div);
+    placement_Hup.appendChild(Fontwrite);
+    Fontwrite.appendChild(Inside);
+
     setTimeout(function () {
+            Fontwrite.style.transition="opacity 1s ease-in-out 2s";
+             Fontwrite.style.opacity="0.8";
+             Hup.style.paddingTop='15px'
             Div.style.width = "850px"; 
             Hup.style.position="absolute";  
             Hup.style.width="200px";
             Hup.style.height="100px";
+            Hup.style.paddingBottom="10px";
 
             Hup.style.borderRadius="inherit";
             Hup.style.opacity="1";
             Hup.style.transition="width 2s ease-in-out 0s,position 2s ease-in-out 0s,transform 2s ease-in-out 0s,opacity 2s ease-in-out 2s,border-radius 2s ease-in-out 0s,height 2s ease-in-out 0s"
-            Hup.style.transform="translate(180%,"+(-3*Number(num)**2.3)+"%)"
+            if (num==1){
+            Hup.style.transform="translate(170%,50%)"}
+            if (num==2){
+            Hup.style.transform="translate(170%,5%)"}
+            if (num==3){
+            Hup.style.transform="translate(170%,-45%)"}
+            if (num==4){
+            Hup.style.transform="translate(170%,-100%)"}
+            if (num==5){
+            Hup.style.transform="translate(170%,-135%)"}
+            if (num==6){
+            Hup.style.transform="translate(170%,-170%)"}
+            if (num==7){
+            Hup.style.transform="translate(170%,-205%)"}
+            if (num==8){
+            Hup.style.transform="translate(170%,-260%)"}
 
 
 
@@ -171,9 +215,15 @@
           var OnlyDiv = document.getElementById("OnlyDiv");
     var Hup = document.getElementById("Hup" + num);
     
-    var placement_Hup = document.getElementById("placement_Hup");}
+    var placement_Hup = document.getElementById("placement_Hup");
+    var Front = document.getElementById("Frontwrite");}
+    var Inside=document.createElement('h1')
+
     if (OnlyDiv) {
         OnlyDiv.remove();
+        Front.remove();
+        Inside.remove();
+        
         const list_Hup=[document.getElementById("Hup1"),document.getElementById("Hup2"),document.getElementById("Hup3"),document.getElementById("Hup4"),document.getElementById("Hup5"),document.getElementById("Hup6"),document.getElementById("Hup7"),document.getElementById("Hup8")];
 
         var compt=0
