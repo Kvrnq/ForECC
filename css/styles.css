@@ -3,11 +3,7 @@
     scroll-behavior:smooth;
   }
 }
-@media (max-width: 768px) {
-  .Ruban {
-    display: none; 
-  }
-}
+
 
 .frame{
   margin-right: 100px;
@@ -320,7 +316,6 @@ to {
   }
 }
 
-@media (min-width: 769px) {
 .Ruban{
   background-image: url(../assets/Rubanbleu.png) ;
   position:absolute;
@@ -464,7 +459,7 @@ to {
   width:50%;
   height: 50%;
   transition: width 1s,height 1s,left 1s;
-}}
+}
 
 
 
