@@ -16,6 +16,8 @@ scale: 0.7;}
   padding-left:3% ;
   background-color: rgb(242, 239, 235);
   background-position: -500px 20px;
+  top: -32px;
+
 
   height: 280px;
   width: 100%;
@@ -48,6 +50,7 @@ scale: 0.7;}
 .Arrow {
   background: url("../assets/right-arrow.png");
   width: 10%;
+  opacity:0.4;
   height: 10%;
   position: absolute;
   left: 11%;
