@@ -739,6 +739,35 @@ letter-spacing: 3px;
   z-index: 1;
   
 }
+}
+.Writef{
+  display: flex;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
+  border-radius: 3%;
+}
+.Writefp{
+
+  border: 3px solid rgb(125, 120, 120);
+  padding-left: 30px;
+position: relative;
+width: 500px;
+left:50%;
+font-size: 30px;
+}
+.Sb{
+  border-radius: 15%;
+  background-color: aliceblue;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+
+
+
 
 
 
