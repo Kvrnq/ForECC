@@ -526,7 +526,8 @@ to {
   border-radius: 10%;
   top:2025px;
   left:145px;
-  background-color: rgba(18, 33, 48, 0.8);
+  background-color: rgba(3, 4, 12, 0.7);
+  border-color: 2px solid rgba(3, 4, 12, 0.5);
 
 }
 .Home h5{
