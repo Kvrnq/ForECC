@@ -838,7 +838,7 @@ scale: 0.7;}
 
 
 .Articles{
-  background-image:linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(/assets/ecc_forum_digital.jpeg) ;
+  background-image:linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(../assets/ecc_forum_digital.jpeg) ;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -848,7 +848,7 @@ scale: 0.7;}
   top:-34px;
 }
 .footer{
-  background-image:linear-gradient(0deg,   rgba(27, 47, 69, 1)0%,   rgba(79, 96, 114, 1)15%,   rgba(19, 34, 50, 1)100%),url(/assets/ecc_forum_digital.jpeg) ;
+  background-image:linear-gradient(0deg,   rgba(27, 47, 69, 1)0%,   rgba(79, 96, 114, 1)15%,   rgba(19, 34, 50, 1)100%),url(../assets/ecc_forum_digital.jpeg) ;
   top:-60px;
   z-index: 0;
   height: 100%;
