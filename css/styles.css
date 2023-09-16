@@ -842,6 +842,19 @@ scale: 0.7;}
   
 
 }
+}
+.Fin{
+  width:350px;
+  height:100px;
+  position: absolute;
+  border-radius: 10%;
+  top:400px;
+  left:160px;
+  background-color: rgba(3, 4, 12, 0.7);
+  border-color: 2px solid rgba(3, 4, 12, 0.5);
+
+
+}
 
 
 
@@ -874,7 +887,12 @@ scale: 0.7;}
   margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
   flex-direction: column;
-  border-radius: 3%; 
+  border-radius: 5%; 
+  background-color: rgba(3, 4, 12, 0.7);
+  color:white;
+  outline: none;
+  border:2px solid rgba(3, 4, 12,0.7) ;
+  height:30px;
 
 }
 .Writefp{
@@ -886,8 +904,8 @@ scale: 0.7;}
 position: relative;
 width: 500px;
 left:53%;
-font-size: 30px;
-background-color: rgba(17, 40, 70,0.3);
+font-size: 20px;
+background-color: rgba(125, 120, 120,0.1);
 color:white;
 
 
@@ -924,6 +942,8 @@ color:white;
   flex-direction: column;
 }
 .Contact{
+  border-top:4px solid rgba(125, 120, 120,1);
+  border-bottom:4px solid rgba(125, 120, 120,1);
   
   background-size: 100%;
 background-repeat: no-repeat;
@@ -931,18 +951,19 @@ background-repeat: no-repeat;
   top:-33px;
   padding-top: 20px;
 
-  background-image: linear-gradient(0deg,   rgba(17, 40, 70, 0.35)0%,   rgba(17, 40, 70, 0.7)55%,   rgba(17, 40, 70, 0.8)100%),url(../assets/cover.png) ;
+  background-image: linear-gradient(0deg, rgba(3, 4, 12, 1) 0%, rgba(3, 4, 12, 0.5) 25%, rgba(3, 4, 12, 0.5) 55%, rgba(3, 4, 12, 0.3) 100%), url(../assets/forumconf1.jpg);
   padding-bottom: 20px;
 }
 .GPic{
   position: relative;
   top:-32px;
-  background-image: linear-gradient(0deg,   rgba(17, 40, 70, 0.35)0%,   rgba(17, 40, 70, 0.7)55%,   rgba(17, 40, 70, 0.8)100%),url(../assets/cover.png) ;
+  background-image: linear-gradient(0deg,   rgba(104, 102, 102, 0.1)0%,   rgba(104, 102, 102, 0.2)55%,   rgba(104, 102, 102, 0.3)100%),url(../assets/campusp.jpg) ;
   height:500px;
   background-size: 100%;
   background-repeat: no-repeat;
   border-top:4px solid rgba(125, 120, 120,1);
   border-bottom:4px solid rgba(125, 120, 120,1);
+  padding-bottom: 40px;
   
 
 }
@@ -979,7 +1000,7 @@ transition: border 0.5s ease-in-out,color 0.5s ease-in-out,background-color 1s e
   background-color: rgba(54, 53, 53,0.5);
   border:1px solid rgba(125, 120, 120,1);
   color:rgba(125, 120, 120,1);
-  transition: border 0.5s ease-in-out,color 0.5s ease-in-outbackground-color 1s ease-in-out;
+  transition: border 0.5s ease-in-out,color 0.5s ease-in-out,background-color 1s ease-in-out;
 
 }
 .Pic1{
@@ -990,9 +1011,6 @@ transition: border 0.5s ease-in-out,color 0.5s ease-in-out,background-color 1s e
   
  
 }
-
-
-
 
 
 
