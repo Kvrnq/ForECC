@@ -519,6 +519,16 @@ to {
 #tenten:hover{
   font-size: 10px;
 }
+.Fin{
+  width:350px;
+  height:100px;
+  position: absolute;
+  border-radius: 10%;
+  top:400px;
+  left:160px;
+  background-color: rgba(18, 33, 48, 0.8);
+
+}
 .Home h5{
   font-size: 20px;
   letter-spacing: 1px;
