@@ -524,10 +524,11 @@ to {
   height:100px;
   position: absolute;
   border-radius: 10%;
-  top:2025px;
-  left:145px;
+  top:400px;
+  left:160px;
   background-color: rgba(3, 4, 12, 0.7);
   border-color: 2px solid rgba(3, 4, 12, 0.5);
+
 
 }
 .Home h5{
