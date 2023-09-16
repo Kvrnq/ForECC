@@ -1,46 +1,27 @@
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior:smooth;
-  }
-}
 
 
-.frame{
-  margin-right: 100px;
-scale: 0.7;}
-.Temoi{
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-right: 60px;
-  padding-top: 100px;
-  position: relative;
-  padding-left:3% ;
-  background-color: rgb(242, 239, 235);
-  background-position: -500px 20px;
-  top: -32px;
-
-
-  height: 280px;
-  width: 100%;
-  color:black;
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr ; 
-  grid-template-rows: 0.2fr 1fr; 
-  gap: 10px; 
-  grid-template-areas: 
-  ". . ."
-  ". . ."
-    ". . ."; 
-  justify-content: stretch; 
-  font-size: 20px;
-  border-bottom: 5px solid rgb(194, 186, 186);
-  border-top: 5px solid rgb(194, 186, 186);
-  z-index: 1;
-
-
-}
 
   
+ 
+
+  #mainNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 8px;
+    padding: 10px 0 60px 10px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;  
+    border-right: 2px solid rgba(10, 17, 92, 0.4); 
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 10%;
+  }
+
+
 @keyframes wiggle {
   0% { transform: rotate(0deg); }
  80% { transform: rotate(0deg); }
@@ -51,36 +32,42 @@ scale: 0.7;}
 .Arrow {
   background: url("../assets/right-arrow.png");
   width: 10%;
-  opacity:0.4;
   height: 10%;
+  opacity: 0.4;
   position: absolute;
-  left: 11%;
-  z-index: 120;
+  left: 11.5%;
+  z-index: 10;
   background-repeat: no-repeat;
-  background-size: 40px;
+  background-size: 30%;
   top: 30%;
   animation: wiggle 2.5s infinite;
-  z-index:10;
-
 
 }
-#mainNav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  font-size: 8px;
-  padding: 10px 0 260px 10px;
-  background-color: whitesmoke;
-  font-family: 'Roboto', sans-serif;  
-  border-right: 2px solid rgba(10, 17, 92, 0.4); 
-  border-top-right-radius: 8%;
-  border-bottom-right-radius: 10%;
-
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior:smooth;
+  }
 }
+
+
+  #mainNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 8px;
+    padding: 10px 0 10px 10px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;  
+    border-right: 2px solid rgba(10, 17, 92, 0.4); 
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 10%;
+  }
+
+
 
 
 @keyframes animation_FORUM {
@@ -183,7 +170,7 @@ to {
   left: -97px;
   width: 100%;
   min-height: 70vh;
-  /* background: linear-gradient(0deg,   rgba(88, 153, 232, 0.05)0%,   rgba(88, 153, 232, 0.4)55%,   rgba(88, 153, 232, 0.5)100%),url(./assets/cover.png) top center; */
+  /* background: linear-gradient(0deg,   rgba(88, 153, 232, 0.05)0%,   rgba(88, 153, 232, 0.4)55%,   rgba(88, 153, 232, 0.5)100%),url(../assets/cover.png) top center; */
 
   background: linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(../assets/cover.png) top center;
   background-size: cover;
@@ -316,12 +303,13 @@ to {
   }
 }
 
+
 .Ruban{
   background-image: url(../assets/Rubanbleu.png) ;
   position:absolute;
   opacity: 0.9;
   top:-10px;
-  left:71%;
+  left:70%;
   width: 170px;
   height: 550px;
   z-index: 10;
@@ -463,6 +451,7 @@ to {
 
 
 
+
 .link_btn:hover{
   left: 17%;
   width:60%;
@@ -564,9 +553,42 @@ letter-spacing: 3px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
 }
+.frame{
+  margin-right: 100px;
+scale: 0.7;}
+.Temoi{
+  top: -32px;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-right: 60px;
+  padding-top: 100px;
+  position: relative;
+  margin-left:3% ;
+  background-color: rgb(242, 239, 235);
+  background-position: -500px 20px;
+
+  height: 280px;
+  width: 100%;
+  color:black;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr ; 
+  grid-template-rows: 0.2fr 1fr; 
+  gap: 10px; 
+  grid-template-areas: 
+  ". . ."
+  ". . ."
+    ". . ."; 
+  justify-content: stretch; 
+  font-size: 20px;
+  border-bottom: 5px solid rgb(194, 186, 186);
+  border-top: 5px solid rgb(194, 186, 186);
+  z-index: 1;
+
+
+}
 
 .About{
-
   overflow-x: hidden;
   overflow-y: hidden;
   padding-right: 60px;
@@ -574,7 +596,9 @@ letter-spacing: 3px;
   position: relative;
   left:4%;
   padding-left:5% ;
-  background-color: rgb(242, 239, 235);
+  /* background-color: rgb(242, 239, 235); */
+    background-color: rgb(242, 239, 235);
+
   background-position: -500px 20px;
 
   height: 280px;
@@ -599,7 +623,7 @@ letter-spacing: 3px;
 .placement-Hup{
   position: relative;
   left:15%;
-  top:14%;
+  top:95px;
   z-index: 20;
   width: 53px;
   height: auto;
@@ -612,6 +636,42 @@ letter-spacing: 3px;
 
   border-radius: 5.5%;
 
+
+}
+.Block1{
+  position: absolute;
+  left:9.2%;
+  top:23%;
+
+}
+.Block2{
+  position: absolute;
+  left:4.2%;
+  top:15%;
+
+}
+.Block3{
+  position: absolute;
+  left:-0.8%;
+  top:8%;
+
+}
+.Block4{
+  position: absolute;
+  left:77.2%;
+  top:13.2%;
+
+}
+.Block5{
+  position: absolute;
+  left:82.2%;
+  top:23%;
+
+}
+.Block6{
+  position: absolute;
+  left:87.2%;
+  top:15%;
 
 }
 
@@ -640,15 +700,7 @@ letter-spacing: 3px;
   }
 }
 
-.Hup3 {
 
-  background-image: url(/assets/coca.png);
-  background-size: contain;
-  background-position: none;
-
-
-
-}
 
 
 .Hup1, .Hup2, .Hup3, .Hup4,.Hup5,.Hup6, .Hup7,.Hup8 {
@@ -685,12 +737,7 @@ letter-spacing: 3px;
 
 .Hup3 {
 
-   background-image: url(../assets/coca.png);
-   background-size: contain;
-   background-position: none;
-
-
-
+   background-image: url(../assets/cocacola.png);
 }
 
 .Hup4 {
@@ -720,52 +767,219 @@ letter-spacing: 3px;
   
 
 }
-
 .Hup1:hover,.Hup2:hover,.Hup3:hover,.Hup4:hover,.Hup5:hover,.Hup6:hover,.Hup7:hover,.Hup8:hover {
   cursor:pointer;
   opacity: 1;
 }
+.Rup1, .Rup2, .Rup3, .Rup4,.Rup5,.Rup6, .Rup7 {
+    
+  border: 3px solid rgb(18, 26, 32);
+  border-radius: 15%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left:0;
+  margin-top: 10px;
+  z-index: 90;
+  background-size: 90%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity:0.5;
+
+  transition:opacity 0.3s ease-in-out;
+}
+
+.Rup1 {
+  background-image: url(../assets/attijari.png);
+  
+ 
+
+}
+
+.Rup2 {
+
+  background-image: url(../assets/labelvie.png);
+
+
+}
+
+.Rup3 {
+
+   background-image: url(../assets/cocacola.png);
+}
+
+.Rup4 {
+
+  background-image: url(../assets/grprenault.png);
+
+}
+.Rup5 {
+
+  background-image: url(../assets/loreal.png);
+
+}
+.Rup6 {
+  background-image: url(../assets/hps.png);
+
+
+}
+
+
+.Rup7 {
+
+  background-image: url(../assets/siana.png);
+  
+
+}
+
+
 
 
 
 .Articles{
-  background-image:linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(../assets/ecc_forum_digital.jpeg) ;
+  background-image:linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(/assets/ecc_forum_digital.jpeg) ;
   position: relative;
-  top:-33px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 110%;
   height:700px;
   z-index: 1;
-  
+  top:-34px;
+}
+.footer{
+  background-image:linear-gradient(0deg,   rgba(27, 47, 69, 1)0%,   rgba(79, 96, 114, 1)15%,   rgba(19, 34, 50, 1)100%),url(/assets/ecc_forum_digital.jpeg) ;
+  top:-60px;
+  z-index: 0;
+  height: 100%;
+  width:110%;
+  background-repeat: no-repeat;
+  position: relative;
 
 }
-.Writf{
+.Writef{
   display: flex;
   width: 400px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
   flex-direction: column;
-  border-radius: 3%;
+  border-radius: 3%; 
+
 }
 .Writefp{
+  top:-50px;
+  border-radius: 3%;
 
   border: 3px solid rgb(125, 120, 120);
   padding-left: 30px;
 position: relative;
 width: 500px;
-left:50%;
+left:53%;
 font-size: 30px;
+background-color: rgba(17, 40, 70,0.3);
+color:white;
+
+
+}
+.Writef:focus{
+  border-bottom: 4px solid rgb(125, 120, 120);
+  border-right: 2px solid rgb(125, 120, 120);
+
+  outline: 1px solid white ;
 }
 .Sb{
+  position: relative;
+  left:35%;
   border-radius: 15%;
-  background-color: aliceblue;
+  background-color: rgba(125, 120, 120,0);
   margin-bottom: 15px;
   cursor: pointer;
+  font-family: "Roboto",sans-serif;
+  font-size: 17px;
+  width:max-content;
+  height:max-content;
+  border: 1px solid rgb(125, 120, 120);
+  color:white;
+  animation: wiggle 4s infinite;
+  transition:background-color 0.3s ease-in-out;
+}
+.Sb:hover{
+  background-color: rgba(125, 120, 120,1);
+
 }
 
+.Write{
+  display: flex;
+  flex-direction: column;
+}
+.Contact{
+  
+  background-size: 100%;
+background-repeat: no-repeat;
+  position:relative;
+  top:-33px;
+  padding-top: 20px;
 
+  background-image: linear-gradient(0deg,   rgba(17, 40, 70, 0.35)0%,   rgba(17, 40, 70, 0.7)55%,   rgba(17, 40, 70, 0.8)100%),url(../assets/cover.png) ;
+  padding-bottom: 20px;
+}
+.GPic{
+  position: relative;
+  top:-32px;
+  background-image: linear-gradient(0deg,   rgba(17, 40, 70, 0.35)0%,   rgba(17, 40, 70, 0.7)55%,   rgba(17, 40, 70, 0.8)100%),url(../assets/cover.png) ;
+  height:500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-top:4px solid rgba(125, 120, 120,1);
+  border-bottom:4px solid rgba(125, 120, 120,1);
+  
+
+}
+.Picpic{
+  
+display: flex;
+justify-content: space-evenly;
+position: relative;
+left:15%;
+}
+.displayr{
+position: absolute;
+font-size: 50px;  
+top:130px;
+left:80%;
+background-color:rgba(125, 120, 120,0);
+border:2px solid white;
+color:white;
+transition: border 0.5s ease-in-out,color 0.5s ease-in-out,background-color 1s ease-in-out;
+
+}
+.displayl{
+  border:2px solid white;
+  color:white;
+  top:130px;
+  font-size: 50px;
+  position: absolute;
+  left:-6%;
+  background-color:rgba(125, 120, 120,0);
+  transition: border 0.5s ease-in-out,color 0.5s ease-in-out,background-color 1s ease-in-out;
+
+}
+.displayr:hover,.displayl:hover{
+  background-color: rgba(54, 53, 53,0.5);
+  border:1px solid rgba(125, 120, 120,1);
+  color:rgba(125, 120, 120,1);
+  transition: border 0.5s ease-in-out,color 0.5s ease-in-outbackground-color 1s ease-in-out;
+
+}
+.Pic1{
+  display:flex;
+  width:300px;
+  height:350px;
+  background-image: url(../assets/cover.png);
+  
+ 
+}
 
 
 
