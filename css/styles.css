@@ -778,7 +778,7 @@ scale: 0.7;}
   cursor:pointer;
   opacity: 1;
 }
-.Rup1, .Rup2, .Rup3, .Rup4,.Rup5,.Rup6, .Rup7 {
+.Rup1, .Rup2, .Rup3, .Rup4,.Rup5,.Rup6, .Rup7,.Rup11, .Rup12, .Rup13, .Rup14,.Rup15,.Rup16, .Rup17 {
     
   border: 3px solid rgb(18, 26, 32);
   border-radius: 15%;
@@ -836,6 +836,90 @@ scale: 0.7;}
 .Rup7 {
 
   background-image: url(../assets/siana.png);
+  
+
+}
+.Rup11 {
+
+  background-image: url(../assets/grant.png);
+  
+
+}
+.Rup12 {
+
+  background-image: url(../assets/popu.png);
+  
+
+}
+.Rup13 {
+
+  background-image: url(../assets/societe.jpg);
+  
+
+}
+.Rup14 {
+
+  background-image: url(../assets/majo.png);
+  
+
+}
+.Rup15 {
+
+  background-image: url(../assets/pwc.png);
+  
+
+}
+.Rup16 {
+
+  background-image: url(../assets/nareva.png);
+  
+
+}
+.Rup17 {
+
+  background-image: url(../assets/gear.png);
+  
+
+}
+.Rup21 {
+
+  background-image: url(../assets/sanlam.png);
+  
+
+}
+.Rup22 {
+
+  background-image: url(../assets/tnp.png);
+  
+
+}
+.Rup23 {
+
+  background-image: url(../assets/vinci.png);
+  
+
+}
+.Rup24 {
+
+  background-image: url(../assets/steel.png);
+  
+
+}
+.Rup25 {
+
+  background-image: url(../assets/anp.png);
+  
+
+}
+.Rup26 {
+
+  background-image: url(../assets/pg.png);
+  
+
+}
+.Rup27 {
+
+  background-image: url(../assets/farge.png);
   
 
 }
