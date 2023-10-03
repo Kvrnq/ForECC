@@ -778,7 +778,7 @@ scale: 0.7;}
   cursor:pointer;
   opacity: 1;
 }
-.Rup1, .Rup2, .Rup3, .Rup4,.Rup5,.Rup6, .Rup7,.Rup11, .Rup12, .Rup13, .Rup14,.Rup15,.Rup16, .Rup17,.Rup21, .Rup22, .Rup23, .Rup24,.Rup25,.Rup26, .Rup27,.Rup31, .Rup32, .Rup33, .Rup34,.Rup35,.Rup36, .Rup37 {
+.Rup1, .Rup2, .Rup3, .Rup4,.Rup5,.Rup6, .Rup7,.Rup11, .Rup12, .Rup13, .Rup14,.Rup15,.Rup16, .Rup17,.Rup21, .Rup22, .Rup23, .Rup24,.Rup25,.Rup26, .Rup27,.Rup31, .Rup32, .Rup33, .Rup34,.Rup35,.Rup36, .Rup37,.Rup41, .Rup42, .Rup43, .Rup44,.Rup45,.Rup46, .Rup47,.Rup51, .Rup52, .Rup53, .Rup54,.Rup55,.Rup56, .Rup57 {
     
   border: 3px solid rgb(18, 26, 32);
   border-radius: 15%;
@@ -963,6 +963,90 @@ scale: 0.7;}
 .Rup37 {
 
   background-image: url(../assets/Roland.png);
+  
+
+}
+.Rup41 {
+
+  background-image: url(../assets/engie.png);
+  
+
+}
+.Rup42 {
+
+  background-image: url(../assets/wavestone.png);
+  
+
+}
+.Rup43 {
+
+  background-image: url(../assets/unilever.png);
+  
+
+}
+.Rup44 {
+
+  background-image: url(../assets/gr.png);
+  
+
+}
+.Rup45 {
+
+  background-image: url(../assets/danone.png);
+  
+
+}
+.Rup46 {
+
+  background-image: url(../assets/gcl.png);
+  
+
+}
+.Rup47 {
+
+  background-image: url(../assets/cooper.png);
+  
+
+}
+.Rup51 {
+
+  background-image: url(../assets/lydec.png);
+  
+
+}
+.Rup52 {
+
+  background-image: url(../assets/novec.png);
+  
+
+}
+.Rup53 {
+
+  background-image: url(../assets/cosumar.png);
+  
+
+}
+.Rup54 {
+
+  background-image: url(../assets/psa.png);
+  
+
+}
+.Rup55 {
+
+  background-image: url(../assets/jesa.png);
+  
+
+}
+.Rup56 {
+
+  background-image: url(../assets/intelcia.png);
+  
+
+}
+.Rup57 {
+
+  background-image: url(../assets/Taqa.png);
   
 
 }
