@@ -55,8 +55,8 @@
 }
 .Arrow {
   background: url("../assets/right-arrow.png");
-  width: 10%;
-  height: 10%;
+  width: 130px;
+  height: 130px;
   opacity: 0.4;
   position: absolute;
   left: 11.5%;
