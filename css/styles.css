@@ -1173,7 +1173,7 @@ background-repeat: no-repeat;
   top:-32px;
   width: 100%;
     left: 50px;
-  background-image: linear-gradient(0deg,   rgba(104, 102, 102, 0.1)0%,   rgba(104, 102, 102, 0.2)55%,   rgba(104, 102, 102, 0.3)100%),url(../assets/campusp.jpg) ;
+  background-image: linear-gradient(0deg,   rgba(49,68,100,1)0%,   rgba(49,68,100, 0.5)55%,   rgba(49,68,100, 0.7)100%),url(../assets/campusp.jpg) ;
   height:500px;
   background-size: 100%;
   background-repeat: no-repeat;
