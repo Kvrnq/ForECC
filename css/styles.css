@@ -1156,19 +1156,18 @@ color:white;
     margin-bottom: -100px;
     padding-left: 50px;
 }
-.Contact{
-  border-top:4px solid rgba(125, 120, 120,1);
-  border-bottom:4px solid rgba(125, 120, 120,1);
-  
-  background-size: 100%;
-background-repeat: no-repeat;
-  position:relative;
-  top:-33px;
-  padding-top: 20px;
 
-  background-image: linear-gradient(0deg, rgba(49,68,100,1) 0%, rgba(49,68,100,0.8577556022408963) 17%, rgba(49,68,100,0.751313025210084) 49%, rgba(49,68,100,0.8185399159663865) 100%), url(../assets/ForumCO.jpeg);
-  padding-bottom: 20px;
-  height:700px;
+.Contact{
+ border-top: 4px solid rgba(125, 120, 120,1);
+    border-bottom: 4px solid rgba(125, 120, 120,1);
+    background-size: 97%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -33px;
+    padding-top: 20px;
+    background-image: linear-gradient(0deg, rgba(49,68,100,1) 0%, rgba(49,68,100,0.2577556022408963) 17%, rgba(49,68,100,0.251313025210084) 49%, rgba(49,68,100,0.4185399159663865) 100%), url(../assets/ForumCO.jpeg);
+    padding-bottom: 20px;
+    height: 700px;
 }
 .GPic{
   position: relative;
