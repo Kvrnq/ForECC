@@ -1166,7 +1166,7 @@ background-repeat: no-repeat;
   top:-33px;
   padding-top: 20px;
 
-  background-image: linear-gradient(0deg, rgba(3, 4, 12, 1) 0%, rgba(3, 4, 12, 0.5) 25%, rgba(3, 4, 12, 0.5) 55%, rgba(3, 4, 12, 0.3) 100%), url(../assets/forumconf1.jpg);
+  background-image: linear-gradient(0deg, rgba(49,68,100,1) 0%, rgba(49,68,100,0.8577556022408963) 17%, rgba(49,68,100,0.751313025210084) 49%, rgba(49,68,100,0.8185399159663865) 100%), url(../assets/ForumCO.jpeg);
   padding-bottom: 20px;
   height:700px;
 }
