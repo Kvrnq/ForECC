@@ -1152,9 +1152,9 @@ color:white;
 #Conta{
   width: 100%;
     position: relative;
-    left: 50px;
   height: 100%;
     margin-bottom: -100px;
+    padding-left: 16px;
 }
 .Contact{
   border-top:4px solid rgba(125, 120, 120,1);
