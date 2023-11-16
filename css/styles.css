@@ -1110,7 +1110,7 @@ scale: 0.7;}
   border: 3px solid rgb(125, 120, 120);
   padding-left: 30px;
 position: relative;
-width: 500px;
+width: 460px;
 left:53%;
 font-size: 20px;
 background-color: rgba(125, 120, 120,0.1);
@@ -1194,7 +1194,7 @@ left:15%;
 position: absolute;
 font-size: 50px;  
 top:130px;
-left:80%;
+left:67%;
 background-color:rgba(125, 120, 120,0);
 border:2px solid white;
 color:white;
