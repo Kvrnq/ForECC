@@ -97,7 +97,7 @@
   }
   to {
     width: 50%;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
     opacity: 1;
   }
 }
@@ -504,7 +504,7 @@ to {
 .Home h2 {
     font-size: 30px;
     letter-spacing: 1px;
-    color: rgb(79, 97, 164);
+    color: rgb(82 172 255);
     position: relative;
     left: 7%; /* Adjusted without leading zero */
     top: -105px;
