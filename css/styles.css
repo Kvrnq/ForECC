@@ -89,6 +89,18 @@
     opacity: 1;
   }
 }
+@keyframes animation_FORUM1 {
+  from {
+    width: 0;
+    letter-spacing: 1px;
+    opacity: 0.4;
+  }
+  to {
+    width: 50%;
+    letter-spacing: 10px;
+    opacity: 1;
+  }
+}
 
 @keyframes animation_FORUMB {
   from {
@@ -504,7 +516,7 @@ to {
     padding: 0 0 10px 0;
     width: 50%;
     padding-left: 70px;
-    animation: animation_FORUM 2s steps(100, end) forwards 1; /* Make sure animation_FORUM is defined elsewhere */
+    animation: animation_FORUM1 2s steps(100, end) forwards 1; /* Make sure animation_FORUM is defined elsewhere */
     transition: letter-spacing 1s ease-in-out;
     white-space: nowrap;
     overflow: hidden;
