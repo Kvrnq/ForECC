@@ -491,7 +491,6 @@ to {
 }
 .Home h2 {
     font-size: 30px;
-    letter-spacing: 10px;
     color: rgb(79 97 164);
     position: relative;
     left: 07%;
@@ -501,7 +500,7 @@ to {
     border-right: none;
     border-top: none;
     border-left: none;
-    padding: 10px 0 10px 0;
+    padding: 0px 0 10px 0;
     width: 50%;
     padding-left: 70px;
     animation: animation_FORUM 2s steps(100, end) forwards 1;
