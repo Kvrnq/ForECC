@@ -1,7 +1,4 @@
 
-
-
-  
  body{
   display: flex;
   flex-direction: column;
@@ -189,14 +186,16 @@ to {
 }
 .Home {
   position: relative;
-  left: -97px;
+  /* left: -97px; */
   width: 1200px;
   min-height: 70vh;
   /* background: linear-gradient(0deg,   rgba(88, 153, 232, 0.05)0%,   rgba(88, 153, 232, 0.4)55%,   rgba(88, 153, 232, 0.5)100%),url(../assets/cover.png) top center; */
 
   background: linear-gradient(0deg,   rgba(27, 47, 69, 0.5)0%,   rgba(27, 47, 69, 0.6)15%,   rgba(27, 47, 69, 0.85)100%),url(../assets/cover.png) top center;
   background-size: cover;
-  padding: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
   
 }
 
@@ -606,7 +605,6 @@ scale: 0.7;}
 
   overflow-x: hidden;
   overflow-y: hidden;
-  margin-right: 60px;
   padding-top: 100px;
   position: relative;
   margin-left:3% ;
@@ -629,7 +627,6 @@ scale: 0.7;}
   border-bottom: 5px solid rgb(194, 186, 186);
   border-top: 5px solid rgb(194, 186, 186);
   z-index: 1;
-  padding-right: 122px;
 
 }
 
@@ -1110,7 +1107,7 @@ scale: 0.7;}
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 110%;
+  width: 1200px;
   height:700px;
   z-index: 1;
   top:-34px;
@@ -1211,7 +1208,6 @@ color:white;
   position: relative;
   top:-32px;
   width: 1200px;
-    left: 50px;
   background-image: linear-gradient(0deg,   rgba(49,68,100,1)0%,   rgba(49,68,100, 0.5)55%,   rgba(49,68,100, 0.7)100%),url(../assets/campusp.jpg) ;
   height:500px;
   background-size: 100%;
@@ -1266,10 +1262,3 @@ transition: border 0.5s ease-in-out,color 0.5s ease-in-out,background-color 1s e
   
  
 }
-
-
-
-
-
-
-
