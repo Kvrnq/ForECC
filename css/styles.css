@@ -2,7 +2,10 @@
 
 
   
- 
+ body{
+  display: flex;
+  flex-direction: column;
+ }
 
   #mainNav {
     position: fixed;
@@ -328,7 +331,7 @@ to {
   position:absolute;
   opacity: 0.9;
   top:-10px;
-  left:70%;
+  left:80%;
   width: 170px;
   height: 550px;
   z-index: 10;
@@ -1125,7 +1128,7 @@ scale: 0.7;}
 }
 .Writef{
   display: flex;
-  width: 400px;
+  width: 300px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
@@ -1145,7 +1148,7 @@ scale: 0.7;}
   border: 3px solid rgb(125, 120, 120);
   padding-left: 30px;
 position: relative;
-width: 460px;
+width: 350px;
 left:53%;
 font-size: 20px;
 background-color: rgba(125, 120, 120,0.1);
@@ -1185,7 +1188,7 @@ color:white;
   flex-direction: column;
 }
 #Conta{
-  width: 100%;
+  width: 114%;
     position: relative;
   height: 100%;
     margin-bottom: -100px;
@@ -1207,7 +1210,7 @@ color:white;
 .GPic{
   position: relative;
   top:-32px;
-  width: 100%;
+  width: 110%;
     left: 50px;
   background-image: linear-gradient(0deg,   rgba(49,68,100,1)0%,   rgba(49,68,100, 0.5)55%,   rgba(49,68,100, 0.7)100%),url(../assets/campusp.jpg) ;
   height:500px;
